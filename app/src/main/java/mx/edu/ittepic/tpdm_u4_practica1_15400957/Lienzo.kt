@@ -42,30 +42,30 @@ class Lienzo(p:MainActivity): View(p){
         c?.drawRect(150f,1260f, 400f,1315f,p )
         //izquierda, arriba,    derecha,  abajo
         p.color=Color.GREEN
-        c?.drawCircle(400f,1245f,40f,p)
+        c?.drawCircle(400f,1245f,60f,p)
         p.color=Color.GREEN
-        c?.drawCircle(450f,1285f,40f,p)
+        c?.drawCircle(450f,1285f,60f,p)
         p.color=Color.GREEN
-        c?.drawCircle(400f,1310f,40f,p)
+        c?.drawCircle(400f,1310f,60f,p)
 
 
         p.color=Color.rgb(120,0,0)
         c?.drawRect(650f,750f, 800f,810f,p )
 
         p.color=Color.GREEN
-        c?.drawCircle(820f,740f,40f,p)
+        c?.drawCircle(820f,740f,60f,p)
         p.color=Color.GREEN
-        c?.drawCircle(870f,770f,40f,p)
+        c?.drawCircle(870f,770f,60f,p)
         p.color=Color.GREEN
-        c?.drawCircle(820f,810f,40f, p)
+        c?.drawCircle(820f,810f,60f, p)
         p.color=Color.rgb(120,0,0)
         c?.drawRect(1000f,2250f, 1100f,2300f,p )
         p.color=Color.GREEN
-        c?.drawCircle(1100f,2240f,40f,p)
+        c?.drawCircle(1100f,2240f,60f,p)
         p.color=Color.GREEN
-        c?.drawCircle(1150f,2270f,40f,p)
+        c?.drawCircle(1150f,2270f,60f,p)
         p.color=Color.GREEN
-        c?.drawCircle(1100f,2300f,40f,p)
+        c?.drawCircle(1100f,2300f,60f,p)
 
 
 
@@ -80,7 +80,7 @@ class Lienzo(p:MainActivity): View(p){
 
         p.color=Color.YELLOW
         c?.drawRect(290f,390f, 360f,460f,p )
-       
+
 
     }
 }
